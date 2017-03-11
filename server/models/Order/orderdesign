@@ -1,0 +1,81 @@
+ORDER	
+
+id : number 
+Primary key
+
+Product : JSON
+
+
+Order_Total : number
+total bill 
+
+Status : JSON =
+{
+    Status:number
+    
+    u
+    
+    date : date
+
+}
+
+
+Shipping_Ref : string
+
+shipping carrier : string
+
+
+Cancel : JSON =
+{
+    status : boolean
+
+    Mode of Refund : number
+    
+    Reason-Text
+   
+    Product ID's- Int
+}
+
+
+Return : JSON =
+{
+    Status-bool
+    
+    Product Ids- int
+    
+    Mode of Refund- int
+    
+    Reason- Text
+    
+    Pick up address- Int
+
+}
+
+
+Tax : JSON =
+{
+    Tax id
+    
+    
+    Product id
+    
+    
+    Tax amount
+}
+
+
+
+
+
+id : number 
+Product : JSON
+Order_Total : number
+Status : JSON = {Status:number, u, date : date}
+Shipping_Ref : string
+shipping carrier : string
+Cancel : JSON ={status:boolean, Mode of Refund : number,Reason-Text, Product ID's- Int}
+Return : JSON ={Status-bool,Product Ids- int, Mode of Refund- int, Reason- Text,Pick up address- Int}
+Tax : JSON ={Tax id, Product id,Tax amount}
+
+
+
